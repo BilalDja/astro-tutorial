@@ -1,0 +1,19 @@
+---
+import Social from "./Social.astro";
+
+const platforms = ["github", "instagram", "facebook", "twitter"];
+const username = "bilaldjago";
+---
+
+<style>
+  footer {
+    display: flex;
+    gap: 1rem;
+    margin-top: 2rem;
+  }
+</style>
+<footer>
+  <Social platform="github" username="BilalDja" />
+  <Social platform="twitter" username="BDjaghout" />
+  <Social platform="facebook" username="bilal.djaghout" />
+</footer>
